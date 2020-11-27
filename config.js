@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'https://kookoublog.netlify.app',
     gaTrackingId: null,
     trailingSlash: false,
   },
@@ -37,11 +37,11 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'kookou', link: 'https://kookoublog.netlify.app/' }],
+    links: [{ text: 'kookou', link: 'https://kookoublog.netlify.app' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "",
+    "<a href='http://localhost:8000'>local home test </a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
