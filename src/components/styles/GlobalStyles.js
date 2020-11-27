@@ -3,6 +3,30 @@ import { injectGlobal } from 'emotion';
 export const baseStyles = injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+  @font-face { 
+    font-family: 'GongGothicMedium'; 
+    src: url('https://github.com/projectnoonnu/noonfonts_20-10/blob/main/GongGothicMedium.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; }
+  @font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+  
   * {
     margin: 0;
     padding: 0;
@@ -26,7 +50,7 @@ export const baseStyles = injectGlobal`
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Roboto Light', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif,
-      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol','GongGothicMedium';
 
     font-size: 16px;
     scroll-behavior: smooth;
@@ -52,9 +76,11 @@ export const baseStyles = injectGlobal`
   }
   a {
     text-decoration: none;
+    color: '#1ed3c6';
   }
   a:hover {
     text-decoration: none;
+    color: '#1ed3c6';
   }
   .displayInline {
     display: inline-block;
@@ -280,6 +306,9 @@ export const baseStyles = injectGlobal`
     align-items: center;
   }
   .navBarBrand {
+    font-family: 'yg-jalnan';
+    font-size : 30px;
+    color:#ffffff;
     padding: 0px 0px;
     display: flex;
     align-items: center;

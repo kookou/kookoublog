@@ -59,7 +59,7 @@ export const StyledMainWrapper = styled.div`
 
   a {
     transition: color 0.15s;
-    color: ${props => props.theme.colors.link};
+    color: #1ed3c6;
   }
 
   code {

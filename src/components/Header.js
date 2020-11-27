@@ -8,6 +8,7 @@ import Loadable from 'react-loadable';
 import config from '../../config.js';
 import LoadingProvider from './mdxComponents/loading';
 import { DarkModeSwitch } from './DarkModeSwitch';
+// import css from './styles/font.css';
 
 const help = require('./images/help.svg');
 
@@ -96,17 +97,9 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         <div className={'navBarWrapper'}>
           <nav className={'navBarDefault'}>
             <div className={'navBarHeader'}>
-              <Link to={finalLogoLink} className={'navBarBrand'}>
-                <img
-                  className={'img-responsive displayInline'}
-                  src={logo.image !== '' ? logo.image : logoImg}
-                  alt={'logo'}
-                />
+              <Link to={finalLogoLink} className={'navBarBrand'} >
+                kookou
               </Link>
-              <div
-                className={'headerTitle displayInline'}
-                dangerouslySetInnerHTML={{ __html: headerTitle }}
-              />
             </div>
             {config.header.social ? (
               <ul

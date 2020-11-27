@@ -34,7 +34,7 @@ const Content = styled('main')`
   flex-grow: 1;
   margin: 0px 88px;
   padding-top: 3rem;
-
+  
   background: ${({ theme }) => theme.colors.background};
 
   table tr {
