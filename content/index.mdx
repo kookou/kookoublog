@@ -1,26 +1,32 @@
 ---
 title: "kookou's blog 제작기"
+metaTitle: "kookou's blog"
 ---
 ### 주의 사항 
 - ~~config.js 파일의 siteMetadata 를 바꾸면 배포 실패~~  
 >**2020.11.28 / 01:42 fix**  
 docsLocation 경로 (https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content) 를 잘못 작성, 해당 페이지를 못찾아서 난 오류.  내 깃허브 경로로 바꿔주니 배포 오류가 발생하지 않음 
 
-### 문제 사항
+### 수정 사항
 - ~~__header 로고 이미지 바꾸기 (avg로 되어있음)__~~
->**2020.11.28 / 03:47 fix**  
-Header.js 파일에서 logoImg가 주입된 곳을 avg img 대신 text로 수정.  '여기어때 잘난체' 가 적용 되어있음 '이사만루체' 로 하고싶었으나 얘는 적용이 안됨 
-- 색상 바꾸기
->**2020.11.28 / 04:28 fix**  
-링크 색상 <span style="color:#0000ff">생파랑</span> >  <span style="color:#1ed3c6">민트</span> 교체  
-kookoublog/src/components/styles/Dosc.js 파일 의  `const StyledMainWrapper = styled.div` 수정
-- ~~content 부분 min-width 설정~~  
 >**2020.11.28 / 02:25 fix**  
 kookoublog/src/components/layout.js 파일의 `const MaxWidth = styled('div')` 에 min-width 속성 적용  
+- ~~content 부분 min-width 설정~~  
+>**2020.11.28 / 03:47 fix**  
+Header.js 파일에서 logoImg가 주입된 곳을 avg img 대신 text로 수정.  '여기어때 잘난체' 가 적용 되어있음 '이사만루체' 로 하고싶었으나 얘는 적용이 안됨 
+- 색상 바꾸기 ~~링크~~/전체색상
+>**2020.11.28 / 04:28 fix**  
+링크 색상 <span style="color:#0000ff">생파랑</span> >  <span style="color:#1ed3c6">민트</span> 교체  
+kookoublog/src/components/styles/Dosc.js 파일 의  `const StyledMainWrapper = styled.div` 수정 (a>color)
+- ~~header nigth/day icon 수정~~  
+- ~~content 의 최대 크기 수정 (1040px)~~
+>**2020.11.28 / 05:12 fix**  
+kookoublog/src/components/styles/Dosc.js 파일 의  `const StyledMainWrapper = styled.div` 수정 (max-width)
 - __post 정렬 법칙 (제발 알고싶다.)__  
 - __카테고리 적용 (지금 방식 말고.)__  
-- ~~header nigth/day icon 수정~~  
-- header github icon클릭시 blog repository 로 이동함 (이게맞나?)
+- header github icon 클릭시 blog repository 로 이동함 (이게맞나? 전체가 맞나?)
+- post 작성시 md 파일을 생성했다가 지워도 sidebar에서 사라지지 않는 문제 확인 (page-data 가 범인이라고 생각 되나 정확한 이유는 모르겠음)
+
 
 ### 구조 파악
 - __kookoublog/config.js__ <span style="color:#8470ff"> blog 정보</span>
