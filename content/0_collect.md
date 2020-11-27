@@ -1,8 +1,13 @@
 ---
-title: "사이트 모음"
-metaTitle: "svg 사용하기"
-metaDescription: "svg 사용을 위한 실습 가이드"
+title: "참고 사이트"
+metaTitle: "참고 사이트 모음"
+metaDescription: "참고 사이트 모음"
 ---
-#### svg 실습가이드
-https://svgontheweb.com/ko/
-##### 로고를 바꿔야 하는데 svg형식이라 봐야 할것 같다.
+#### 개발
+   1. 코딩하는 거니 (python) [youtube](https://www.youtube.com/channel/UCO7g158NWgLyn98z8v3zduA/featured)
+   2. ZeroCho TV (react, js, node)  [youtube](https://www.youtube.com/channel/UCp-vBtwvBmDiGqjvLjChaJw)
+
+#### 디자인
+   1. 무료 이미지 사이트 [unsplash](https://unsplash.com/)
+   2. 무료 부트스트랩 탬플릿 사이트 [themewagon](https://themewagon.com/theme_tag/free/)
+   3. 무료 아이콘 사이트 [flaticon](https://www.flaticon.com/)
