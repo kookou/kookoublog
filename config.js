@@ -10,7 +10,7 @@ const config = {
     logoLink: 'https://kookoublog.netlify.app/',
     title:
       "<a href='https://kookoublog.netlify.app/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/kookou/kookoublog',
+    githubUrl: 'https://github.com/kookou',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -41,7 +41,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-    "<a href='http://localhost:8000'>local home test </a>",
+    "<a href='http://localhost:8000'>kookou only</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
