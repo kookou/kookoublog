@@ -45,7 +45,7 @@ const config = {
   },
   siteMetadata: {
     title: "kookou's blog",
-    description: '개린이의 우당탕 블로그 작성기 ',
+    description: '개린이 우당탕 블로그 작성기',
     ogImage: null,
     docsLocation: 'https://github.com/kookou/kookoublog/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
