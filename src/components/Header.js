@@ -174,10 +174,9 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                   <li className={'githubBtn'}>
                     <GitHubButton
                       href={githubUrl}
-                      data-show-count="true"
+                      data-show-count="false"
                       aria-label="Star on GitHub"
                     >
-                      Star
                     </GitHubButton>
                   </li>
                 ) : null}

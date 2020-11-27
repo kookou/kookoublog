@@ -11,3 +11,6 @@ metaDescription: "참고 사이트 모음"
    1. 무료 이미지 사이트 [unsplash](https://unsplash.com/)
    2. 무료 부트스트랩 탬플릿 사이트 [themewagon](https://themewagon.com/theme_tag/free/)
    3. 무료 아이콘 사이트 [flaticon](https://www.flaticon.com/)
+
+#### ect
+   1. 구조참고 및 프론트앤드 [velopert.log](https://velopert.com/)
