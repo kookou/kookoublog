@@ -34,6 +34,7 @@ const Content = styled('main')`
   flex-grow: 1;
   margin: 0px 88px;
   padding-top: 3rem;
+
   background: ${({ theme }) => theme.colors.background};
 
   table tr {
@@ -48,8 +49,9 @@ const Content = styled('main')`
 `;
 
 const MaxWidth = styled('div')`
+  min-width : 45rem;
   @media only screen and (max-width: 50rem) {
-    width: 100%;
+    min-width: 100%;
     position: relative;
   }
 `;

@@ -37,11 +37,12 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'kookou', link: 'https://kookoublog.netlify.app' }],
+    links: [{ text: 'kookou only', link: 'http://localhost:8000' }],
     frontline: false,
     ignoreIndex: true,
     title:
-    "<a href='http://localhost:8000'>kookou only</a>",
+    // "<a href='http://localhost:8000'>kookou only</a>",
+    "",
   },
   siteMetadata: {
     title: "kookou's blog",
