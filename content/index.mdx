@@ -6,7 +6,9 @@ metaTitle: "kookou's blog"
 - ~~config.js 파일의 siteMetadata 를 바꾸면 배포 실패~~  
 >**2020.11.28 / 01:42 fix**  
 docsLocation 경로 (https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content) 를 잘못 작성, 해당 페이지를 못찾아서 난 오류.  내 깃허브 경로로 바꿔주니 배포 오류가 발생하지 않음 
-
+- ~~Markdown 문법으로 로컬 이미지 등록 시 경로 인식 오류~~  
+>**2020.11.28 / 20:00 fix**  
+작성하려는 .md 파일과 이미지 파일이 같은 디렉토리에 있을경우 정상작동 (하지만 이외에도 방법이 있을듯?) 
 ### 수정 사항
 - ~~content 부분 min-width 설정~~  
 >**2020.11.28 / 02:25 fix**  
@@ -41,11 +43,13 @@ Gatsby 공식 문서 [Gatsby Documentation](https://www.gatsbyjs.com/docs/)
 Gatsby 탬플릿 [Gatsby Theme](https://www.gatsbyjs.com/starters/?v=2)  
 호스팅 [Netlify](https://www.netlify.com/)  
 GraphQL react 문서 [GraphQL Tutorial react](https://hasura.io/learn/graphql/react/introduction/)  
-따라한 포스트 [yoon.homme](https://suitee.me/getting-started-gatsby/)
+따라한 포스트 [yoon.homme](https://suitee.me/getting-started-gatsby/)  
 Gatsby 훑어보기 [김정환블로그](https://jeonghwan-kim.github.io/dev/2020/07/30/gatsby.html) 
 
 ### 블로그 운영 참고 사이트
+
 Markdown 문법 [namuwiki](https://namu.wiki/w/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)  
-Markdown 글자색 지정 문제 `<span style="color:#8470ff">text</span>` 로 사용 [stackoverrun](https://stackoverrun.com/ko/q/9777174) 
+Markdown 글자색 지정 문제 `<span style="color:#8470ff">text</span>` 로 사용 [stackoverrun](https://stackoverrun.com/ko/q/9777174)  
+Markdown 로컬 이미지 노출 문제 [stackoverrun](https://stackoverrun.com/ko/q/11449040)  
 
 ![lisa Image](https://lh3.googleusercontent.com/proxy/112h6OyttgVXAQFrTvHtkDOaxCaISKpNSa1Z0JLg5unZfFGhG3F94k2ANlBanN6d2fv5Y12vNqyOpIoYtQ7Pzdgiv8HSyNNvIObxFbHGk7Sfn45y_OCZnHmEXLioOPOBE3v96iy2Y0xs0MBp0b96y3yC_0N8LHV_BCjFNAwhpUW9DbZm)`쨔잔`
