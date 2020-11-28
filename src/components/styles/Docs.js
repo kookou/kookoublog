@@ -4,7 +4,7 @@ export const StyledHeading = styled('h1')`
   font-size: 32px;
   line-height: 1.5;
   font-weight: 500;
-  border-left: 2px solid #1ed3c6;
+  border-left: 2px solid #ff6363;
   padding: 0 16px;
   flex: 1;
   margin-top: 0;
@@ -59,7 +59,7 @@ export const StyledMainWrapper = styled.div`
 
   a {
     transition: color 0.15s;
-    color: #1ed3c6;
+    color: #ff6363;
   }
 
   code {

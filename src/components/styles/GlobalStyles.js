@@ -76,11 +76,11 @@ export const baseStyles = injectGlobal`
   }
   a {
     text-decoration: none;
-    color: '#1ed3c6';
+    color: '#ff6363';
   }
   a:hover {
     text-decoration: none;
-    color: '#1ed3c6';
+    color: '#ff6363';
   }
   .displayInline {
     display: inline-block;
@@ -283,17 +283,17 @@ export const baseStyles = injectGlobal`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #0f0f0f;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
     border: 0;
     display: flex;
     align-items: center;
-    box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
-    -webkit-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
-    -moz-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.8);
-    -o-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
+    // box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
+    // -webkit-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
+    // -moz-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.8);
+    // -o-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
     z-index: 1;
     padding: 15px;
     position: relative;
@@ -397,7 +397,7 @@ export const baseStyles = injectGlobal`
   }
   /* Header section ends here */
   .sidebarTitle {
-    /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
+    // /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
     background-color: #f8f8f8;
     padding: 18px 16px;
     font-family: 'Poppins';
@@ -479,7 +479,7 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
+    background-color: #ff6363;
     color: #fff !important;
   }
   .firstLevel ul li .collapser svg path {
@@ -499,7 +499,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #ff6363;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -537,7 +537,7 @@ export const baseStyles = injectGlobal`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #1ed3c6 !important;
+    background-color: #ff6363 !important;
     color: #fff;
   }
 
