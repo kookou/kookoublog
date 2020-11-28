@@ -49,7 +49,7 @@ const Content = styled('main')`
 `;
 
 const MaxWidth = styled('div')`
-  min-width : 1040px;
+  min-width : 800px;
   @media only screen and (max-width: 50rem) {
     min-width: 100%;
     position: relative;

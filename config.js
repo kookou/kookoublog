@@ -14,13 +14,6 @@ const config = {
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'twitter'}/>
-		      </div>
-		    </a>
-      </li>
-      <li>
 		    <a href="https://github.com/kookou" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://storage.googleapis.com/graphql-engine-cdn.hasura.io/learn-hasura/assets/social-media/github-icon.svg' alt={'github'}/>
