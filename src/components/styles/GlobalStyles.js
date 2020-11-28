@@ -351,7 +351,7 @@ export const baseStyles = injectGlobal`
   }
   
   blockquote {
-    color: rgb(116, 129, 141);
+    color: #828487;
     margin: 0px 0px 24px;
     padding: 0px 0px 0px 12px;
     border-left: 4px solid rgb(230, 236, 241);
