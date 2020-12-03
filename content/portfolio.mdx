@@ -19,20 +19,25 @@ __2020.12.01__
 __이미지 경로 오류가 날때도 있는데 마찬가지로 기존의 page-data 를 삭제하고 다시 저장하면 새로운 page-data가 생성되면서 정상 작동한다...__~~  
 > page-data를 새로 생성해주면 된다.  
 
-- __/node_modules/@narative/gatsby-theme-novela/src/components/Logo/Logo.tsx__ 파일이 로고. svg만 가능한것 같다
+- __/node_modules/@narative/gatsby-theme-novela/src/components/Logo/Logo.tsx__ 파일이 로고.  
+svg만 가능한것 같다
 
+__2020.12.03__
+- 카테고리별 셀렉트/검색 부분 (03.jpg) 매장 평점 이미지 보여주기 추가
+- 리뷰 페이지 (06.jpg) 챗봇 아이콘이 없음
 
 #### 포트폴리오 이미지 사용법
 ``` html
 <div className="Image__Small">
   <img src="./images/small.jpg" alt="This is the alt text small image" />
 </div>
-
+// text와 넓이가 같다
 <div className="Image__Medium">
   <img src="./images/medium.jpg" alt="This is the alt text medium image" />
 </div>
-
+// 
 <div className="Image__Large">
   <img src="./images/large.jpg" alt="This is the alt text large image" />
 </div>
+// 꽉참
 ```
