@@ -3,7 +3,7 @@ title: "TIKA"
 metaTitle: "bitcamp final project"
 metaDescription: "bitcamp final project"
 ---
-![main Image](mian.png)
+![main Image](herot_1.jpg)
 
 #### 협업툴 "TIKA"
 
