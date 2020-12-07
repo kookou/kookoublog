@@ -23,7 +23,10 @@ __2020.12.05__
 - 사용기술 부분 이미지 다시 캡쳐
 
 __2020.12.07__
-- 1차 끝
+- 1차 끝  
+
+
 __참고 url__
-[생성챗봇](https://wikidocs.net/78127)
-[검색챗봇](https://wikidocs.net/78127)
+[생성챗봇](https://wikidocs.net/78127)  
+[검색챗봇](https://wikidocs.net/78127)  
+[데이터생성](https://jfun.tistory.com/199)  
