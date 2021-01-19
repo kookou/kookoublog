@@ -1,9 +1,14 @@
 ---
-title: "python pandas 기초"
-metaTitle: "python pandas 기초"
-metaDescription: "python pandas 기초"
+title: "python 기초"
+metaTitle: "python 기초"
+metaDescription: "python 기초"
 ---
 #### python pandas 기초
+
+### python pandas read_csv()
+
+
+pandas 공식 문서 [read_csv](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
 |옵션|default|설명|
 |------|---|---|
@@ -19,3 +24,8 @@ metaDescription: "python pandas 기초"
 |skip_blank_lines|True|빈줄은 결측값으로 판단하지 않고 건너뜀|
 |encoding|-|참고|
 |nrow|-|읽을 파일 행(row)의 수|
+
+### python 정규표현식
+
+
+python 정규표현식 [import re](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/07/20/regex-usage-01-basic/)
