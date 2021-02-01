@@ -30,5 +30,3 @@ pandas 공식 문서 [read_csv](https://pandas.pydata.org/pandas-docs/stable/ref
 
 python 정규표현식 [import re](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/07/20/regex-usage-01-basic/)
 
-
-### 2021.01.20(수)
