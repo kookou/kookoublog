@@ -4,8 +4,10 @@ metaTitle: "Django"
 metaDescription: "Django/Python"
 ---
 
-## 장고?
+## 장고? 
+Django란 웹사이트를 신속하게 개발하도록 도움을 주는 파이썬 웹 프레임워크  
 
+공식문서 [Django](https://docs.djangoproject.com/ko/3.1/intro/)  
 출처 [배우는 프로그래머](https://youtu.be/Nv_9uZ4ld9U)  
 
 Framework : 어떤 일을 할때 자주 사용되는 기능을 미리 준비해 둔것.
@@ -14,8 +16,11 @@ Framework : 어떤 일을 할때 자주 사용되는 기능을 미리 준비해 
 
 디자인 패턴 : 개발 설계상 발생하는 문제를 해결하기 위한 해결책(디자이너,프론트,백엔드)
 - MVC : Model(데이터베이스) , View(화면-프론트), Controller(계산,처리-백엔드)
-- MVT : Model(데이터베이스) , Template(와면-프론트), View(계산,처리-백엔드)
+- MVT : Model(데이터베이스) , Template(화면-프론트), View(계산,처리-백엔드) << 장고
 
+### 흐름도
+
+![django](https://laziness.xyz/images/django-cycle.jpg)
 
 ### 장고로 프로젝트 만드는 순서
 1. 파이참 프로젝트 만들기
