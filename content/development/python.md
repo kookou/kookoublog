@@ -1,12 +1,11 @@
 ---
-title: "python 기초"
-metaTitle: "python 기초"
-metaDescription: "python 기초"
+title: "Python"
+metaTitle: "Python"
+metaDescription: "Python"
 ---
-#### python pandas 기초
+### python pandas 기초
 
-### python pandas read_csv()
-
+#### python pandas read_csv() 속성
 
 pandas 공식 문서 [read_csv](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 

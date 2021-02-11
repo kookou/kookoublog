@@ -1,7 +1,7 @@
 ---
-title: "React 기초"
-metaTitle: "React 기초"
-metaDescription: "React 기초"
+title: "React"
+metaTitle: "React"
+metaDescription: "React"
 ---
 ### React extensions  
 

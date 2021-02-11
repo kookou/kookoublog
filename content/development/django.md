@@ -6,10 +6,9 @@ metaDescription: "Django/Python"
 
 ## 장고? 
 Django란 웹사이트를 신속하게 개발하도록 도움을 주는 파이썬 웹 프레임워크  
-
 공식문서 [Django](https://docs.djangoproject.com/ko/3.1/intro/)  
-출처 [배우는 프로그래머](https://youtu.be/Nv_9uZ4ld9U)  
 
+### 장고를 공부할때 필요한 기본 지식
 Framework : 어떤 일을 할때 자주 사용되는 기능을 미리 준비해 둔것.
 - Micro : 최소한의 기능만 가지고 있다. + 추가 기능을 원하는 대로 설치해서 사용한다 (커스터마이징 굿 : Flask)
 - FullStack : 거의 대부분의 기능을 가지고 있다. + 추가 기능도 설치 가능 (커스터마이징 배드 : Django)
@@ -35,10 +34,21 @@ Framework : 어떤 일을 할때 자주 사용되는 기능을 미리 준비해 
 11. URL을 만든다.
 - 대표적인 기능(화면) : CRUD ->Create , Read, Update, Delete
 
+출처 [배우는 프로그래머](https://youtu.be/Nv_9uZ4ld9U)  
 
 ### 명령어 
 - 장고 프로젝트 생성  
 ```
 //해당폴더에 생성
 django-admin startproject config .
+```
+
+- runserver 포트변경 
+```
+$ python manage.py runserver 8080
+```
+
+- shell 실행
+```
+$ python manage.py shell
 ```
