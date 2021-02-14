@@ -3,6 +3,11 @@ title: "React"
 metaTitle: "React"
 metaDescription: "React"
 ---
+### React
+Javascript Web Front-End Rendering 라이브러리 중 하나
+>보통 Single Page Application Framework가 대부분의 기능을 포함 하고 있는 반면에 React는 대부분의 기능을 포함하고 있는. Framework가 아니라 View를 Rendering 하는 것이 주 기능이며 나머지 기타 기능들(router, ajax등등)은 서드파티 라이브러리를 추가적으로 사용해야 한다.
+
+
 ### React extensions  
 
 ESLint : 자바스크립트 문법 유효성 검사  
