@@ -52,3 +52,8 @@ $ python manage.py runserver 8080
 ```
 $ python manage.py shell
 ```
+
+- admin 생성
+```
+$ python manage.py createsuperuser
+```
