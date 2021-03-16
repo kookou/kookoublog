@@ -1,10 +1,10 @@
 ---
-title: "setting"
-metaTitle: "setting"
-metaDescription: "setting"
+title: "anaconda setting"
+metaTitle: "anaconda setting"
+metaDescription: "anaconda setting"
 ---
 
-### 아나콘다
+### Anaconda
 - 아나콘다 가상환경 생성
 ```
 conda create --name(-n) // 가상환경명 설치할 패키지
