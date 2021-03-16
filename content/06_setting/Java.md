@@ -11,7 +11,7 @@ metaDescription: "Java setting"
 
 VSCode로 Spring 프로젝트 빌드 [마이자몽] (https://myjamong.tistory.com/123)  
 
-- 회사 프로젝트 소스 확인중 <label>안 <input> 박스 type 에러  
+- 회사 프로젝트 소스 확인중 label안 input 박스 type 에러  
 [stackoverflow](https://stackoverflow.com/questions/17385167/attribute-value-uses-wrong-case-character-error-in-eclipse/51942389)    
 첫번째 방법 으로 해결  
 
